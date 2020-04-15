@@ -11,7 +11,7 @@ module.exports =
 	{
 		mode: "development",
 		devtool: "inline-source-map",
-		entry: './pancake_main.tsx',
+		entry: './pancake/pancake_main.tsx',
 
 		output:
 		{
