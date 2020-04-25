@@ -15,8 +15,8 @@ module.exports =
 
 		output:
 		{
-			path: path.resolve( __dirname, 'dist/client' ),
-			filename: "client_bundle.js"
+			path: path.resolve( __dirname, 'dist/pancake' ),
+			filename: "pancake_bundle.js"
 		},
 		module: 
 		{
@@ -67,6 +67,7 @@ module.exports =
 			new CopyPlugin(
 				[
 					{ from: './pancake/pancake_styles.css', to: 'pancake_styles.css' },
+					{ from: './registry.json', to: 'registry.json' },
 				]
 				),
 		]

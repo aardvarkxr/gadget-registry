@@ -1,0 +1,12 @@
+{
+	"minimumAardvarkVersion": "0.6.6",
+	"gadgets":
+	[
+		{
+			"url": "http://localhost:23842/gadgets/test_panel"
+		},
+		{
+			"url": "http://localhost:23842/gadgets/test_panel/manifest.webmanifest"
+		}
+	]
+}

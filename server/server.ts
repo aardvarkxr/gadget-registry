@@ -16,6 +16,10 @@ class CServer
 			console.log(`Server started on port ${ port } :)`);
 		} );
 
+		let clientStaticContent = path.resolve( process.cwd(), "client" );
+		console.log( `Serving static content from ${clientStaticContent}` );
+		this.m_app.use( "/", express.static(  clientStaticContent ) );
+		this.m_app.use( "/", express.static(  path.resolve( clientStaticContent, "index.html" ) ) );
 		// this.m_app.use( "/gadgets", express.static( path.resolve( g_localInstallPath, "gadgets" ) ) );
 		// this.m_app.use( "/models", express.static( path.resolve( g_localInstallPath, "models" ) ) );
 	}
