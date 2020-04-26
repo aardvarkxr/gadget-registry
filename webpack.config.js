@@ -120,11 +120,11 @@ module.exports =
 
 		plugins:
 		[
-			new CopyPlugin(
-				[
-					{ from: './node_modules/node/bin/node.exe', to: 'bin/node.exe' },
-				]
-				),
+			// new CopyPlugin(
+			// 	[
+			// 		{ from: './node_modules/node/bin/node.exe', to: 'bin/node.exe' },
+			// 	]
+			// 	),
 	
 			],
 
