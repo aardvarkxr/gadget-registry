@@ -1,12 +1,15 @@
 {
-	"minimumAardvarkVersion": "0.6.6",
+	"minimumAardvarkVersion": "0.9.0",
 	"gadgets":
 	[
 		{
-			"url": "http://localhost:23842/gadgets/test_panel"
+			"url": "https://aardvarkxr.github.io/example_gadgets/whiteboard"
 		},
 		{
-			"url": "http://localhost:23842/gadgets/test_panel/manifest.webmanifest"
+			"url": "https://aardvarkxr.github.io/example_gadgets/control_test"
+		},
+		{
+			"url": "https://aardvarkxr.github.io/example_gadgets/test_panel"
 		}
 	]
 }
