@@ -6,7 +6,7 @@
 			"url": "http://aardvark.pluto-api.com/"
 		},
 		{
-			"url": "https://aardvarkxr.github.io/example_gadgets/whiteboard"
+			"url": "https://aardvark-rooms.herokuapp.com/gadget/"
 		}
 	],
 	"labs":
