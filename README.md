@@ -3,7 +3,7 @@
 Welcome to the simplest possible global registry for Aardvark gadgets. 
 
 This repository contains one file of note: `registry.json`. 
-This file is loaded by Aardvark when it starts up and provides a global list of useful to gadgets to users.
+This file is loaded by Aardvark when it starts up and provides a global list of useful gadgets to users.
 
 If you would like your gadget to appear in the registry, just submit a pull request that adds it to `registry.json`.
 
