@@ -3,6 +3,9 @@
 	"gadgets":
 	[
 		{
+			"url": "https://aardvarkxr.github.io/gadget-calculator/dist"
+		},
+		{
 			"url": "http://aardvark.pluto-api.com/"
 		},
 		{
